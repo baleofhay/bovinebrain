@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hardware Hacking Projects - Meshtastic, Fireworks Control, IoT - Bovine Brain">
+    <meta name="keywords" content="meshtastic, hardware hacking, IoT, arduino, ESP32, fireworks, maker projects">
+    <title>Hardware Projects - Bovine Brain</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">📡 Bovine Brain <span class="callsign">KM7ATW</span></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ham.html">Ham Radio</a></li>
+                <li><a href="cloud.html">Cloud</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero hero-projects">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hardware Projects</h1>
+                <p class="hero-subtitle">Building, Hacking, Tinkering</p>
+                <p class="hero-description">From wireless mesh networks to pyrotechnic controllers, documenting my journey in hardware hacking and maker projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-featured">
+                <div class="project-featured-card">
+                    <div class="project-header">
+                        <h3>🛰️ Meshtastic Network</h3>
+                        <span class="project-status status-active">Active</span>
+                    </div>
+                    <p class="project-description">Building a long-range, off-grid mesh communication network using LoRa technology. Perfect for hiking, emergency communications, and rural connectivity.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">LoRa</span>
+                        <span class="tech-tag">ESP32</span>
+                        <span class="tech-tag">Meshtastic</span>
+                        <span class="tech-tag">MQTT</span>
+                    </div>
+                    <div class="project-details">
+                        <h4>Project Highlights:</h4>
+                        <ul>
+                            <li>Range: 10+ miles line-of-sight</li>
+                            <li>Battery life: 3-7 days on a single charge</li>
+                            <li>Custom 3D printed enclosures</li>
+                            <li>Integration with MQTT and Discord</li>
+                            <li>Solar-powered repeater nodes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-featured-card">
+                    <div class="project-header">
+                        <h3>🎆 Wireless Fireworks Launcher</h3>
+                        <span class="project-status status-complete">Complete</span>
+                    </div>
+                    <p class="project-description">Safe, wireless fireworks ignition system with multi-channel control, safety interlocks, and remote firing capabilities.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ESP32</span>
+                        <span class="tech-tag">WiFi</span>
+                        <span class="tech-tag">Relay Control</span>
+                        <span class="tech-tag">Web UI</span>
+                    </div>
+                    <div class="project-details">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>16-channel firing control</li>
+                            <li>Web-based interface for programming sequences</li>
+                            <li>Safety key and arming switch</li>
+                            <li>Continuity testing for each channel</li>
+                            <li>300+ foot wireless range</li>
+                        </ul>
+                    </div>
+                    <div class="project-warning">
+                        ⚠️ <strong>Safety First:</strong> This project involves pyrotechnics and high current switching. Proper safety measures, permits, and expert knowledge required.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Projects -->
+    <section class="resources-section">
+        <div class="container">
+            <h2 class="section-title">Other Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">📟</div>
+                    <h3>APRS Tracker</h3>
+                    <p>GPS position reporting over amateur radio using APRS protocol</p>
+                    <span class="project-status-small">Planning</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🌡️</div>
+                    <h3>Weather Station</h3>
+                    <p>IoT weather monitoring with cloud data logging and visualization</p>
+                    <span class="project-status-small">In Progress</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🔊</div>
+                    <h3>SDR Radio</h3>
+                    <p>Software-defined radio receiver for monitoring various frequencies</p>
+                    <span class="project-status-small">Complete</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">💾</div>
+                    <h3>Home NAS</h3>
+                    <p>Custom network-attached storage with redundancy and remote access</p>
+                    <span class="project-status-small">Active</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🏡</div>
+                    <h3>Smart Home Hub</h3>
+                    <p>Home automation using Home Assistant and custom sensors</p>
+                    <span class="project-status-small">In Progress</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🔋</div>
+                    <h3>Solar Power Monitor</h3>
+                    <p>Real-time monitoring of solar panel output and battery status</p>
+                    <span class="project-status-small">Planning</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources & Tools -->
+    <section class="bands-section">
+        <div class="container">
+            <h2 class="section-title">Hardware Hacking Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>🛠️ Development Boards</h3>
+                    <ul>
+                        <li><a href="https://www.espressif.com/en/products/socs/esp32" target="_blank" rel="noopener">ESP32 (WiFi/BT)</a></li>
+                        <li><a href="https://www.arduino.cc/" target="_blank" rel="noopener">Arduino Platform</a></li>
+                        <li><a href="https://www.raspberrypi.org/" target="_blank" rel="noopener">Raspberry Pi</a></li>
+                        <li><a href="https://www.pjrc.com/teensy/" target="_blank" rel="noopener">Teensy (High Performance)</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>📻 Radio Modules</h3>
+                    <ul>
+                        <li><a href="https://meshtastic.org/" target="_blank" rel="noopener">Meshtastic (LoRa Mesh)</a></li>
+                        <li><a href="https://www.semtech.com/lora" target="_blank" rel="noopener">LoRa Technology</a></li>
+                        <li><a href="https://www.nordicsemi.com/Products/nRF52840" target="_blank" rel="noopener">nRF52 (BLE)</a></li>
+                        <li><a href="https://www.espressif.com/en/products/modules" target="_blank" rel="noopener">ESP WiFi Modules</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>🔧 Tools & Software</h3>
+                    <ul>
+                        <li><a href="https://platformio.org/" target="_blank" rel="noopener">PlatformIO IDE</a></li>
+                        <li><a href="https://www.kicad.org/" target="_blank" rel="noopener">KiCad (PCB Design)</a></li>
+                        <li><a href="https://www.autodesk.com/products/fusion-360" target="_blank" rel="noopener">Fusion 360 (3D CAD)</a></li>
+                        <li><a href="https://www.home-assistant.io/" target="_blank" rel="noopener">Home Assistant</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>🌐 Communities</h3>
+                    <ul>
+                        <li><a href="https://www.reddit.com/r/esp32/" target="_blank" rel="noopener">r/esp32</a></li>
+                        <li><a href="https://discord.com/invite/ktMAKGBnBs" target="_blank" rel="noopener">Meshtastic Discord</a></li>
+                        <li><a href="https://hackaday.com/" target="_blank" rel="noopener">Hackaday</a></li>
+                        <li><a href="https://www.instructables.com/" target="_blank" rel="noopener">Instructables</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Technologies -->
+    <section class="qcodes-section">
+        <div class="container">
+            <h2 class="section-title">Technologies I Use</h2>
+            <div class="interests-grid">
+                <div class="interest-item">
+                    <h3>⚡ Microcontrollers</h3>
+                    <p>ESP32, Arduino, STM32, Teensy</p>
+                </div>
+                <div class="interest-item">
+                    <h3>📡 Wireless Protocols</h3>
+                    <p>LoRa, WiFi, Bluetooth, Zigbee, MQTT</p>
+                </div>
+                <div class="interest-item">
+                    <h3>💻 Languages</h3>
+                    <p>C/C++, Python, MicroPython, JavaScript</p>
+                </div>
+                <div class="interest-item">
+                    <h3>🔌 Electronics</h3>
+                    <p>Soldering, PCB design, power management</p>
+                </div>
+                <div class="interest-item">
+                    <h3>🖨️ Fabrication</h3>
+                    <p>3D printing, CAD design, enclosures</p>
+                </div>
+                <div class="interest-item">
+                    <h3>🔍 Debugging</h3>
+                    <p>Logic analyzers, oscilloscopes, multimeters</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Bovine Brain | KM7ATW</p>
+            <p class="footer-note">Tech Enthusiast | Ham Radio | Cloud | Hardware Hacking</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
